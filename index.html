@@ -1,59 +1,230 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - Buck Music Bot</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f4f4f9;
-        }
-        .container {
-            background: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h1 { color: #5865F2; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { color: #2c3e50; margin-top: 30px; }
-        p { margin-bottom: 15px; }
-        footer { margin-top: 50px; text-align: center; font-size: 0.8em; color: #7f8c8d; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Terms of Service</h1>
-        <p><strong>Effective Date: December 27, 2025</strong></p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Terms of Service - Buck Bot</title>
+        <style>
+            body {
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Helvetica, Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: #f4f4f9;
+            }
+            .container {
+                background: white;
+                padding: 40px;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+            h1 {
+                color: #5865f2;
+                border-bottom: 2px solid #eee;
+                padding-bottom: 10px;
+            }
+            h2 {
+                color: #2c3e50;
+                margin-top: 30px;
+            }
+            p {
+                margin-bottom: 15px;
+            }
+            ul {
+                margin-bottom: 15px;
+            }
+            li {
+                margin-bottom: 5px;
+            }
+            .version {
+                color: #7f8c8d;
+                font-size: 0.9em;
+            }
+            .warning {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 4px;
+                padding: 15px;
+                margin: 20px 0;
+            }
+            footer {
+                margin-top: 50px;
+                text-align: center;
+                font-size: 0.8em;
+                color: #7f8c8d;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Terms of Service</h1>
+            <p><strong>Effective Date: December 28, 2025</strong></p>
+            <p class="version">Bot Version: 2.0.0</p>
 
-        <p>By adding the Buck Music Bot ("the Bot") to your Discord server or using its features, you agree to be bound by these Terms of Service.</p>
+            <p></p>
+                By adding the Buck Bot ("the Bot") to your Discord server or
+                using its features, you agree to be bound by these Terms of
+                Service.
+            </p>
 
-        <h2>1. Acceptance of Terms</h2>
-        <p>By using this Bot, you certify that you are at least 13 years of age (or the minimum age of digital consent in your country) and comply with Discord's Terms of Service.</p>
+            <h2>1. Acceptance of Terms</h2>
+            <p></p>
+                By using this Bot, you certify that you are at least 13 years of
+                age (or the minimum age of digital consent in your country) and
+                comply with Discord's Terms of Service. If you do not agree to
+                these terms, you must not use the Bot.
+            </p>
 
-        <h2>2. Usage License</h2>
-        <p>The Bot is provided for personal, non-commercial use. You may not use the Bot to violate any laws, infringe on intellectual property rights, or bypass the security of the Bot or its connected media servers.</p>
+            <h2>2. Usage License</h2>
+            <p>
+                The Bot is provided for personal, non-commercial use. You may
+                not:
+            </p>
+            <ul>
+                <li>Use the Bot to violate any applicable laws or regulations.</li>
+                <li>Attempt to bypass, exploit, or abuse the Bot's features or security measures.</li>
+                <li>Use the Bot to infringe on intellectual property rights.</li>
+                <li>Use the Bot to harass, abuse, or harm other users.</li>
+                <li>Resell, redistribute, or commercialize access to the Bot without permission.</li>
+            </ul>
 
-        <h2>3. Music and Content</h2>
-        <p>The Bot facilitates the streaming and retrieval of music from private media servers (Navidrome). Users are responsible for ensuring they have the legal right to access and play the content they request through the Bot.</p>
+            <h2>3. Music and Content</h2>
+            <p>
+                The Bot facilitates the streaming, searching, and retrieval of
+                music from private media servers (Navidrome). Users are
+                responsible for ensuring they have the legal right to access and
+                play the content they request through the Bot. The Bot owners do
+                not host, store, or distribute copyrighted music content.
+            </p>
+            <p>
+                Features such as <code>/search</code>, <code>/album</code>,
+                <code>/artist</code>, <code>/playlists</code>,
+                <code>/genres</code>, and <code>/random</code> are tools for
+                browsing and playing content from your own Navidrome server.
+            </p>
 
-        <h2>4. Moderation and Purge Features</h2>
-        <p>Commands like `/purge` delete messages from your server. Use of these commands is at your own risk. The Bot owners are not responsible for accidental data loss resulting from the use of moderation commands.</p>
+            <h2>4. Moderation Features</h2>
+            <p>
+                The Bot provides moderation tools for server administrators,
+                including but not limited to:
+            </p>
+            <ul>
+                <li><code>/ban</code> - Permanently ban users from the server</li>
+                <li><code>/unban</code> - Remove bans from users</li>
+                <li><code>/kick</code> - Remove users from the server</li>
+                <li><code>/timeout</code> - Temporarily mute users</li>
+                <li><code>/warn</code> - Issue warnings to users</li>
+                <li><code>/purge</code> - Bulk delete messages</li>
+                <li><code>/slowmode</code> - Set channel rate limits</li>
+            </ul>
 
-        <h2>5. Disclaimer of Warranty</h2>
-        <p>The Bot is provided "as is" without any warranties. We do not guarantee that the Bot will be online at all times or free from bugs/errors.</p>
+            <div class="warning">
+                <strong>⚠️ Important:</strong> Use of moderation commands is at
+                your own risk. The Bot owners are not responsible for:
+                <ul>
+                    <li>Accidental data loss from message purges</li>
+                    <li>Wrongful bans, kicks, or timeouts issued by moderators</li>
+                    <li>Any disputes arising from moderation actions</li>
+                </ul>
+            </div>
 
-        <h2>6. Termination</h2>
-        <p>We reserve the right to restrict access to the Bot for any user or server found to be abusing the service or violating these terms.</p>
+            <h2>5. Warning System and Auto-Actions</h2>
+            <p>
+                The Bot includes an automated warning system. When enabled:
+            </p>
+            <ul>
+                <li>Warnings are stored and tracked per user per server.</li>
+                <li>
+                    After reaching a threshold of warnings (default: 3), users
+                    may be automatically timed out.
+                </li>
+                <li>
+                    Server administrators are responsible for managing warnings
+                    and ensuring fair use of this system.
+                </li>
+            </ul>
+            <p>
+                Users who believe they have been unfairly warned should contact
+                their server administrators directly.
+            </p>
 
-        <footer>
-            &copy; 2025 Buck Music Bot. All rights reserved.
-        </footer>
-    </div>
-</body>
+            <h2>6. Download Features</h2>
+            <p>
+                The <code>/download</code> command is restricted to authorized
+                users only. This feature interfaces with external services
+                (SpotiFLAC) to download music to the connected media server.
+                Users must ensure they have the legal right to download any
+                content they request.
+            </p>
+
+            <h2>7. Logging Features</h2>
+            <p>
+                When enabled by server administrators, the Bot can log various
+                server events including:
+            </p>
+            <ul>
+                <li>Member joins and leaves</li>
+                <li>Message edits and deletions</li>
+                <li>Voice channel activity</li>
+                <li>Moderation actions</li>
+            </ul>
+            <p>
+                Server administrators are responsible for informing their
+                members about active logging features and ensuring compliance
+                with applicable privacy laws.
+            </p>
+
+            <h2>8. Availability and Reliability</h2>
+            <p>
+                The Bot is provided "as is" without any warranties or guarantees
+                of availability. We do not guarantee:
+            </p>
+            <ul>
+                <li>100% uptime or availability</li>
+                <li>Bug-free or error-free operation</li>
+                <li>Compatibility with all Discord features</li>
+                <li>Uninterrupted music playback</li>
+            </ul>
+
+            <h2>9. Limitation of Liability</h2>
+            <p>
+                To the maximum extent permitted by law, the Bot owners shall not
+                be liable for any indirect, incidental, special, consequential,
+                or punitive damages resulting from your use of or inability to
+                use the Bot.
+            </p>
+
+            <h2>10. Termination</h2>
+            <p>
+                We reserve the right to restrict or terminate access to the Bot
+                for any user or server found to be:
+            </p>
+            <ul>
+                <li>Violating these Terms of Service</li>
+                <li>Abusing the Bot's features or infrastructure</li>
+                <li>Engaging in illegal activities</li>
+                <li>Harassing the Bot owners or other users</li>
+            </ul>
+
+            <h2>11. Changes to Terms</h2>
+            <p>
+                We may modify these Terms of Service at any time. Continued use
+                of the Bot after changes are posted constitutes acceptance of
+                the modified terms. We encourage users to review these terms
+                periodically.
+            </p>
+
+            <h2>12. Contact</h2>
+            <p>
+                For questions, concerns, or requests related to these Terms of
+                Service, please contact the Bot owner through Discord.
+            </p>
+
+            <footer>&copy; 2025 Buck Bot. All rights reserved.</footer>
+        </div>
+    </body>
 </html>
